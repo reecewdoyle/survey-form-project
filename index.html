@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Your participation in this Survey helps us serve you better!</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Name: <input id="name" type="text" placeholder="Homer Simpson" required></input></label>
+            <label id="email-label">Email: <input id="email" type="email" placeholder="chunkylover53@aol.com" required></input></label>
+            <label id="number-label">Age: <input id="number" type="number" min="10" max="100" placeholder="38" required></input></label>
+        </fieldset>
+        <fieldset>
+            <label for="dropdown">What best describes your current employment? 
+                <select id="dropdown">
+                    <option value="">(select one)</option>
+                    <option value="1">Full Time Permanent</option>
+                    <option value="2">Full Time Temporary</option>
+                    <option value="3">Part Time Permanent</option>
+                    <option value="4">Part Time Temporary</option>
+                    <option value="5">Studying</option>
+                    <option value="6">Stay-at-home Child</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="radio-buttons">Are you a Cat or Dog person?</label>
+            <label><input id="cat" type=radio name="cat-dog" value="cat" checked>Cat</label>
+            <label><input id="dog" type=radio name="cat-dog" value="dog">Dog</label>
+            <label><input id="neither" type=radio name="cat-dog" value="neither">Neither</label>
+        </fieldset>
+        <fieldset>
+            
+        </fieldset>
+
+    </form>
+</body>
+</html>
